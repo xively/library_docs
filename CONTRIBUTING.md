@@ -1,23 +1,28 @@
-We love that you're interested in contributing to this project!  Whether it's clarifying how to use them, requesting new features, finding bugs, or contributing to writing them yourself, the Cosm libraries are completely open-source and always undergoing improvement, and we want to hear your thoughts.
+Whether it's clarifying how to use them, requesting new features, finding bugs, or contributing to writing them yourself, the Cosm libraries are completely open-source and always being updated, and we want to hear your thoughts.
 
 Feel free to fork and improve this library any way you want. If you feel that the library benefits from your changes, please open a pull request and contribute back!
 
 
 ## Getting Help with Using a Library
-For community discussion, questions, and implementation, the place to go is [Stack Overflow](http://stackoverflow.com/questions/tagged/cosm).  Be sure to tag your question with a `cosm` tag to join the discussion.
+For discussion, questions, and help with implementation, we use [Stack Overflow](http://stackoverflow.com/questions/tagged/cosm).  Be sure to use a `cosm` tag.
 
 ## Requesting New Features
-If you've got a feature request for this library, file it with the GitHub issue tracker.  We're always expanding our libraries, and would love to hear your ideas.
+If you've got a feature request for this library, file it with the GitHub issue tracker.  (You can find it on the Github page for each library, under the "Issues" tab.)  We're always expanding our libraries, and would love to hear your ideas.
 
 ## Submitting Bug Reports
-If you find a problem with a library (and are maybe even thinking of tackling it yourself), log it with the GitHub issue tracker.  That way, we can take a look and let you know how best to proceed, and if work is already underway on this issue.
+If you find a problem with a library, whether you are stuck or want to address it yourself, first log it using the GitHub issue tracker.  That way, we can take a look and let you know how best to proceed, and if work is already underway on this issue.
 
-**Note:** The issue tracker is for *bugs*, not help requests. For procedural questions - like help - see the above "Getting Help" section. 
+**Note:** The issue tracker is for *bugs* and *new features*, not help requests. For procedural questions - like help - see the above "Getting Help" section. 
 
->#### Reporting bugs effectively
+#### Reporting bugs effectively
 
-- Please include as much information as possible.  Where relevant, your software Version, library version, hardware you were running the library on, web gateway … bring it on, the more the better.
-- Mention very precisely what went wrong. For example, instead of "I can't add a datapoint", it is more helpful to say "the library returned an error 'X' when I tried datapoint.upload()".  What did you expect to happen? What happened instead? Describe the exact steps you could take to recreate it.
+Please include as much information as you have available.  Where possible:
+  - your IDE software and library version (e.g. Visual Studio 2012, mbed Online IDE, Cosm Java Lib 1.0)
+  - what device you were running the code on (e.g. iOS 5, Android 4.0, Arduino Uno)
+  - how you are connected to the web (e.g. Gainspan wireless module, Ethernet)
+  - and any more detail you have (e.g. what are the underlying versions of software stack)
+
+Mention very precisely what went wrong. For example, instead of "I can't add a datapoint", it is more helpful to say "the library returned an error 'X' when I tried datapoint.upload()".  What did you expect to happen? What happened instead? Describe the exact steps you could take to recreate it.
 
 
 ## Contributing to Cosm Libraries
@@ -31,7 +36,7 @@ If you know exactly how to implement the feature being suggested or fix the bug
 being reported, please open a pull request instead of an issue. Pull requests are easier than
 patches or inline code blocks for discussing and merging the changes.
 
-###Contributing (Step-by-step)
+### Contributing (Step-by-step)
 
 1) Clone the Repo of the library you want to contribute to:
 ```
