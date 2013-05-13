@@ -76,7 +76,7 @@ git pull --rebase
 
 First, push your rebased single commit to your remote fork of the Xively library
 ```
-git remote add mine git@github.com:<your user name>/discourse.git
+git remote add mine git@github.com:<your user name>/LIB_REPO_NAME.git
 git push mine new_feature_branch
 ```
 Then:
