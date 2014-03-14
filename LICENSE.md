@@ -1,6 +1,6 @@
 ###This library is Open Source, under the BSD 3-Clause license.
 
-Copyright © 2003-2013 LogMeIn, Inc.
+Copyright © 2003-2014 LogMeIn, Inc.
 
 All rights reserved.
 
